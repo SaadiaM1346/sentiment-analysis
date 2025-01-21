@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     mySA
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002BFC, symSize: 0x234 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002BFC, symSize: 0x234 }
+  - { offsetInCU: 0x26, offset: 0x389, size: 0x8, addend: 0x0, symName: _remove_punct, symObjAddr: 0x0, symBinAddr: 0x100002E30, symSize: 0xCC }
+  - { offsetInCU: 0x49, offset: 0x3AC, size: 0x8, addend: 0x0, symName: _remove_punct, symObjAddr: 0x0, symBinAddr: 0x100002E30, symSize: 0xCC }
+  - { offsetInCU: 0x97, offset: 0x3FA, size: 0x8, addend: 0x0, symName: _make_lower, symObjAddr: 0xCC, symBinAddr: 0x100002EFC, symSize: 0x78 }
+  - { offsetInCU: 0xD7, offset: 0x43A, size: 0x8, addend: 0x0, symName: _is_all_space, symObjAddr: 0x144, symBinAddr: 0x100002F74, symSize: 0xAC }
+  - { offsetInCU: 0x11B, offset: 0x47E, size: 0x8, addend: 0x0, symName: _has_space_words, symObjAddr: 0x1F0, symBinAddr: 0x100003020, symSize: 0x364 }
+  - { offsetInCU: 0x1F6, offset: 0x559, size: 0x8, addend: 0x0, symName: _make_vader_struct, symObjAddr: 0x554, symBinAddr: 0x100003384, symSize: 0x464 }
+  - { offsetInCU: 0x2A1, offset: 0x604, size: 0x8, addend: 0x0, symName: _sentence_scoring, symObjAddr: 0x9B8, symBinAddr: 0x1000037E8, symSize: 0x4B8 }
+  - { offsetInCU: 0x38A, offset: 0x6ED, size: 0x8, addend: 0x0, symName: _print_display, symObjAddr: 0xE70, symBinAddr: 0x100003CA0, symSize: 0xCC }
+...
